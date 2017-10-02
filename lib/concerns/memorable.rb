@@ -9,7 +9,7 @@ module Memorable
   # 
 #   def self.count
   def count
-     @@artists.count
+     self.all.count
   end
 
 end
